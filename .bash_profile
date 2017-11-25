@@ -25,8 +25,8 @@ if [ -f `which perl` ]; then
 	export PERL5LIB=${PERL5LIB}:${HOME}/Project/Perl
 fi
 
-if [ -d "/usr/local/pycharm-2017.2.2" ]; then
-	export PATH="${PATH}:/usr/local/pycharm-2017.2.2/bin"
+if [ -d "/usr/local/Pycharm" ]; then
+	export PATH="${PATH}:/usr/local/Pycharm/bin"
 fi
 
 if [ -d "/usr/local/GoLand" ]; then
