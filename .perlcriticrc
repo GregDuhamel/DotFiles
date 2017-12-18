@@ -1,0 +1,25 @@
+# please alpha sort config items as you add them
+
+severity = 5
+verbose = %f: [%p] %m at line %l, column %c.\n%d\n
+theme = core
+
+[TestingAndDebugging::RequireUseStrict]
+
+[TestingAndDebugging::RequireUseWarnings]
+severity = 5
+
+[CodeLayout::RequireTrailingCommas]
+severity = 5
+
+[ValuesAndExpressions::ProhibitEmptyQuotes]
+severity = 5
+
+[ValuesAndExpressions::ProhibitInterpolationOfLiterals]
+severity = 5
+
+[ValuesAndExpressions::ProhibitNoisyQuotes]
+severity = 5
+
+[Modules::ProhibitEvilModules]
+modules_file = .forbidden_modules
